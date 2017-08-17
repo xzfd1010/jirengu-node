@@ -15,6 +15,8 @@
     "express": "^4.15.3",
     "jade": "^1.11.0",
     "jsonwebtoken": "^7.4.1",
-    "mongoose": "^4.11.4"
+    "mongoose": "^4.11.4",
+    "pug": "^2.0.0-rc.3",
+    "stylus": "^0.54.5"
   }
 }

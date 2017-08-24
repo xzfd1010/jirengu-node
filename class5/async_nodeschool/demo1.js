@@ -25,7 +25,7 @@ let getUrl = function (url) {
             res.on('end', () => {
                 return resolve(data);
             });
-        }).on('error', function (error) {
+        }).on('error', (error) => {
             reject(error);
         })
     });

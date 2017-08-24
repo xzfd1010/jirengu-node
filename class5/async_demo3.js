@@ -31,9 +31,9 @@ function bar2() {
     // 此时使用
     let p1 = foo1();
     let p2 = foo2();
-    console.log('1');
-    console.log(p1);
-    console.log(p2);
+    // console.log('1');
+    // console.log(p1);
+    // console.log(p2);
     let r = await Promise.all([p1, p2]);
     if(r.length === 2){
         // await foo3(); // 只有在p1，p2都执行完毕时，进入新的流程
